@@ -1,0 +1,47 @@
+body{
+background: #56CCF2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.content {
+    padding-bottom: 10px; /* Ajusta el espacio en la parte inferior para evitar que el pie de página se superponga al contenido */
+}
+
+.footer {
+    background-color: #0864c2;
+    color: white;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: #032e59;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #adb5bd;
+}
+
+
+.custom-table {
+    border-radius: 30px; /* O el valor que desees */
+}
+
+/* Estilos adicionales o personalizados */
+.up { color: green; }
+.down { color: red; }
+		
+.status-chart {
+    width: 100%;  /* Ajusta el ancho del gráfico al contenedor */
+    max-width: 400px; /* Ancho máximo del gráfico */
+    height: 300px; /* Altura del gráfico */
+}
